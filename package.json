@@ -1,22 +1,18 @@
 {
-  "name": "webshot",
-  "version": "0.18.0",
+  "name": "webshot-node",
+  "version": "0.18.1",
   "description": "Easy website screenshots",
-  "author": "Brenden Kokoszka",
+  "author": "Archit Jain",
   "contributors": [
     {
-      "name": "Brenden Kokoszka",
-      "email": "brenden.kokoszka@gmail.com"
-    },
-    {
-      "name": "Matthew Chase Whittemore",
-      "email": "mcwhittemore@gmail.com"
+      "name": "Archit Jain",
+      "email": "architjn93@gmail.com"
     }
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/brenden/node-webshot.git"
+    "url": "https://github.com/architjn/node-webshot.git"
   },
   "engine": [
     "node >=0.7.00"
