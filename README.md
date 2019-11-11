@@ -10,7 +10,7 @@ rendering.
 A simple url example:
 
 ```javascript
-var webshot = require('webshot');
+var webshot = require('webshot-node');
 
 webshot('google.com', 'google.png', function(err) {
   // screenshot now saved to google.png
@@ -30,7 +30,7 @@ webshot('<html><body>Hello World</body></html>', 'hello_world.png', {siteType:'h
 Alternately, the screenshot can be streamed back to the caller:
 
 ```javascript
-var webshot = require('webshot');
+var webshot = require('webshot-node');
 var fs      = require('fs');
 
 var renderStream = webshot('google.com');
@@ -44,7 +44,7 @@ renderStream.on('data', function(data) {
 An example showing how to take a screenshot of a site's mobile version:
 
 ```javascript
-var webshot = require('webshot');
+var webshot = require('webshot-node');
 
 var options = {
   screenSize: {
